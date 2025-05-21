@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyadharshini P's Restaurant</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff9800;
+        }
+        header img {
+            height: 50px;
+            vertical-align: middle;
+        }
+        header h1 {
+            display: inline;
+            margin-left: 10px;
+            color: #ff9800;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c2c2c;
+            padding: 10px;
+        }
+        nav a {
+            color: #f0f0f0;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+        .banner {
+            background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            color: white;
+            text-align: center;
+        }
+        .banner h2 {
+            font-size: 2em;
+            margin: 0;
+            background: rgba(0, 0, 0, 0.6);
+            display: inline-block;
+            padding: 10px;
+        }
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 30px 10px;
+            background-color: #181818;
+        }
+        .card {
+            background-color: #2a2a2a;
+            width: 300px;
+            margin: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            color: #ff9800;
+        }
+        .card-content p {
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #1c1c1c;
+            text-align: center;
+            padding: 15px;
+            color: #ccc;
+            font-size: 0.9em;
+            border-top: 2px solid #ff9800;
+        }
+        footer span {
+            color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <h1>Priyadharshini P's Restaurant</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#admin">Administration</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="banner">
+        <h2>30% Off This Weekend!</h2>
+        <p>Enjoy the best dishes with amazing discounts. Book your table now!</p>
+    </div>
+
+    <div class="section">
+        <div class="card">
+            <img src="menu.jpeg" alt="Menu" />
+            <div class="card-content">
+                <h3>Our New Menu</h3>
+                <p>Explore our variety of delicious meals prepared with love and care.</p>
+                <a href="#menu" style="color: #ff9800;">See our new menu</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1543353071-873f17a7a088" alt="Table" />
+            <div class="card-content">
+                <h3>Book a Table</h3>
+                <p>Reserve your spot and enjoy an unforgettable dining experience.</p>
+                <a href="#book" style="color: #ff9800;">Book now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="open.jpeg" alt="Hours" />
+            <div class="card-content">
+                <h3>Opening Hours</h3>
+                <p>Mon - Fri: 2pm - 10pm<br/>Sat: 2pm - 11pm<br/>Sun: 2pm - 9pm</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Designed and Developed by <span>Priyadharshini P</span>
+    </footer>
+</body>
+</html>
